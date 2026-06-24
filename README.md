@@ -41,7 +41,7 @@ Touch IRQ.........GPIO 36
 Battery ADC.......GPIO 34
 
 #Project Structure
-wifi-scanner/
+Code/
 ├── platformio.ini       # Build config, display driver, pin definitions
 ├── partitions.csv       # Custom partition table (required for BT + BLE + WiFi)
 └── src/
