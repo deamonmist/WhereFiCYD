@@ -5,14 +5,14 @@ by deamonmist
 The purpose of this hand-held device is to be able to locate a WiFi, BLE, or Classic Bluetooth signal in physical space. It is built around the 3.5” CYD, scans for nearby networks and devices, view signal strength, security type, and MAC addresses. You can click on a specific to track it in real time using an animated signal visualizer.
 
 #Features
-•	Three radio modes — WiFi (channels 1–13), BLE, and Classic Bluetooth, switchable at any time via tab buttons
-•	10-second boot scan with animated progress bar and live device count
-•	Top 5 list showing device name, MAC address, signal strength, channel, and security type (OPEN / WEP / WPA / WPA2 / WPA3)
-•	Signal tracker with a gaussian bell curve visualizer that responds to signal strength and direction
-•	RSSI history graph showing signal strength over time
-•	Battery percentage indicator with color-coded icon (green / yellow / red)
-•	Debug touch overlay — long press anywhere to show touch zone mapping
-•	Resistive touchscreen navigation throughout
+Three radio modes — WiFi (channels 1–13), BLE, and Classic Bluetooth, switchable at any time via tab buttons
+10-second boot scan with animated progress bar and live device count
+Top 5 list showing device name, MAC address, signal strength, channel, and security type (OPEN / WEP / WPA / WPA2 / WPA3)
+Signal tracker with a gaussian bell curve visualizer that responds to signal strength and direction
+RSSI history graph showing signal strength over time
+Battery percentage indicator with color-coded icon (green / yellow / red)
+Debug touch overlay — long press anywhere to show touch zone mapping
+Resistive touchscreen navigation throughout
 
 #Hardware
 This project is designed to run entirely off of a single piece of hardware: the so called CYD, Cheap Yellow Display. This uses the 3.5” model which sports an ESP32-WROOM-32E, which features WiFI and BT/BLE.
